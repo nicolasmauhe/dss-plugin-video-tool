@@ -1,0 +1,24 @@
+{
+    "id": "watch-video",
+    "meta": {
+        "label": "Watch video",
+        "description": "Watch video"
+    },
+    "params" : [
+        {
+            "name": "input_folder",
+            "label": "Videos folder",
+            "type": "FOLDER",
+            "description": "Folder where the videos are stored",
+            "agentDependency": true
+        },
+        {
+            "name": "llm_id",
+            "type": "LLM",
+            "label": "LLM",
+            "description": "The Tool uses a LLM to watch the video. Must be a multimodal LLM.",
+            "agentDependency": true
+        }
+    ]
+}
+
